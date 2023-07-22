@@ -1,7 +1,8 @@
+requests
 streamlit
+joblib
 pandas
 numpy
-matplolib
 seaborn
+matplolib
 PIL
-requests
