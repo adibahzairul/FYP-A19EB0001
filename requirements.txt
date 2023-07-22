@@ -4,5 +4,5 @@ joblib
 pandas
 numpy
 seaborn
-matplolib
+matplotlib
 PIL
