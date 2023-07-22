@@ -1,6 +1,6 @@
 requests
 streamlit
-st_lottie
+streamlit_lottie
 joblib
 pandas
 numpy
