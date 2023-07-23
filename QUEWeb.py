@@ -5,6 +5,7 @@
 
 
 import requests
+import pickle
 import streamlit as st
 from streamlit_lottie import st_lottie
 
@@ -102,7 +103,7 @@ with st.container():
 if st.button("Submit"):
     
     # Unpickle classifier
-    xgbc = joblib.load("xgbc.pkl")
+    xgbc = pickle.load(open('xgbc.pkl', 'rb'))
     
     # Store inputs into dataframe
     X = pd.DataFrame([[V,H,NumHDonors,NumHeteroatoms,ExactMolWt,K,S,NumSaturatedCarbocycles,M,NumSaturatedRings]], 
