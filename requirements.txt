@@ -8,4 +8,3 @@ numpy
 seaborn
 matplotlib
 Pillow
-xgboost==1.1.1
