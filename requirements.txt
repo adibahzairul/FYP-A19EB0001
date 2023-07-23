@@ -1,6 +1,7 @@
 requests
 streamlit
 streamlit_lottie
+pickle
 joblib
 pandas
 numpy
