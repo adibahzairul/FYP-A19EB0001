@@ -1,5 +1,6 @@
 requests
 streamlit
+scikit-learn
 streamlit_lottie
 joblib
 pandas
