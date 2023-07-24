@@ -103,7 +103,7 @@ with st.container():
 if st.button("Submit"):
     
     # Unpickle classifier
-    xgbc = joblib.load('Model/xgbc.pkl')
+    xgbc = joblib.load('xgbc.joblib')
     
     # Store inputs into dataframe
     X = pd.DataFrame([[V,H,NumHDonors,NumHeteroatoms,ExactMolWt,K,S,NumSaturatedCarbocycles,M,NumSaturatedRings]], 
