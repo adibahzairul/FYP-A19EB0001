@@ -103,7 +103,7 @@ with st.container():
 if st.button("Submit"):
     
     # Unpickle classifier
-    with open("Model/xgbc.pkl", "rb") as f:
+    with open("Model/XGBC.pkl", "rb") as f:
       xgbc = pickle.load(f)
     
     # Store inputs into dataframe
