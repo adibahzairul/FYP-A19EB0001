@@ -104,7 +104,7 @@ if st.button("Submit"):
     
     # Unpickle classifier
     with open("Model/XGBC.pkl", "rb") as f:
-      xgbc = pickle.load(f)
+        xgbc = pickle.load(f)
     
     # Store inputs into dataframe
     X = pd.DataFrame([[V,H,NumHDonors,NumHeteroatoms,ExactMolWt,K,S,NumSaturatedCarbocycles,M,NumSaturatedRings]], 
